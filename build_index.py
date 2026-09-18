@@ -147,7 +147,7 @@ html_template = '''<!DOCTYPE html>
         <a class="nav-link" href="#governance">MCC Governance</a>
       </nav>
       <div class="flex items-center gap-3">
-        <a class="button button-light" href="#tracking">Track complaint</a>
+        <button onclick="openReportModal()" class="button button-primary cursor-pointer text-xs py-2 px-3.5 sm:text-sm">Report waste</button>
       </div>
     </div>
   </header>
@@ -193,7 +193,6 @@ html_template = '''<!DOCTYPE html>
                   <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </button>
-              <a class="button button-glass" href="#tracking">Track a complaint</a>
             </div>
 
           </div>
